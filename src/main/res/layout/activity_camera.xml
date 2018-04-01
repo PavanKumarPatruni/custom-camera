@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_transparent_shade_2">
+
+    <FrameLayout
+        android:id="@+id/frameLayoutCameraPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCameraOptions"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_hundred"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_transparent_shade_4">
+
+        <ImageView
+            android:id="@+id/imageViewFlash"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:padding="@dimen/dimen_thirty"
+            android:src="@drawable/ic_flash_auto" />
+
+        <ImageView
+            android:id="@+id/imageViewCapture"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dimen_seventeen"
+            android:layout_marginTop="@dimen/dimen_seventeen"
+            android:layout_weight="1"
+            android:src="@drawable/drawable_capture_selector" />
+
+        <ImageView
+            android:id="@+id/imageViewChangeCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/dimen_thirty_eight"
+            android:src="@drawable/ic_camera_front" />
+
+    </LinearLayout>
+
+</RelativeLayout>
