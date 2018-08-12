@@ -1,4 +1,5 @@
 # custom-camera
 
+Start Camera
 
-CustomCamera.startCamera(this);
+    CustomCamera.startCamera(this);
